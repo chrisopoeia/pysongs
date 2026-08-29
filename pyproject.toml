@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysongs"
+version = "0.1.0-dev.1"
+authors = [
+  { name="chris", email="c@chrisopoeia.com" },
+]
+description = "pysongs"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/chrisopoeia/pysongs/blob/main/README.md"
+Documentation = "https://github.com/chrisopoeia/pysongs/blob/main/README.md"
+Repository = "https://github.com/chrisopoeia/pysongs"
+Discussion = "https://github.com/chrisopoeia/pysongs/discussions"
+Issues = "https://github.com/chrisopoeia/pysongs/issues"
+Changelog = "https://github.com/chrisopoeia/pysongs/blob/main/CHANGELOG.md"
